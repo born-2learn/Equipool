@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:padding="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select one of the following:"
+        android:textSize="30sp">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:id="@+id/hospital"
+        android:textSize="30sp"
+        android:padding="40dp"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testing Centre"
+        android:id="@+id/testingCentre"
+        android:padding="40dp"
+        android:textSize="30sp"
+        >
+    </Button>
+
+
+</LinearLayout>
